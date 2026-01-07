@@ -1,0 +1,192 @@
+.logo{
+    height: 60px;
+}
+.ayrac{
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+}
+.nav-bg{
+    background-color: rgba(27, 27, 27, 0.527);
+}
+.ustkisim{
+    background-image: url(hero.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ustkisimiletisim{
+    background-image: url(hero.jpg);
+    height: 200vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-item a{
+    color: #ffff;
+    font-size: 16px;
+}
+@media screen and (max-width:992px) {
+    .ayrac{
+        display: none;
+    } 
+    .nav-item:hover{
+    background-color: rgba(31, 30, 30, 0.486);
+}
+   
+}  
+@media screen and (max-width:991px) {
+    .son{
+        display: none;
+    }
+    .kutucuk {
+      margin-right: -200px;
+    }
+    .sericikler{
+        height: 400px;
+    }
+}
+@media screen and (max-width:767px) {
+
+    .son2{
+        display: none;
+    } .sericikler{
+        height: 300px;
+    }
+}
+
+#carouselExample{
+ margin-top: 50px;
+ background-color: rgba(19, 18, 18, 0.685);
+ padding: 5px;
+ border-radius: 5px;
+}
+.carousel-inner{
+    background-color: rgba(77, 76, 76, 0.541);
+    border-radius: 5px;
+    height: 450px;
+    
+}
+.carousel-item:active{
+    background-color: rgba(65, 65, 65, 0.349);
+    border-radius: 5px;
+
+   
+}
+@media screen and (max-width:1199px) {
+    .carousel-inner{
+        height: 400px;
+    }
+  
+    
+}
+.icerk{
+    
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+.baslikmini{
+    color: white;
+    margin-left: 10px;
+}
+.article{
+    height: 500px;
+    width: 800px;
+    background-color: black;
+    margin-top: 200px;
+}
+.teklif{
+    height: 60px;
+}
+.sunucu{
+    font-size: 36px;
+}
+.reklam{
+    height: 60px;
+    font-size: 36px;
+    margin-top: -10px;
+    
+}
+.hizmetlerimiz{
+    background-color: cadetblue;
+}
+.yeni{
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+   
+    margin-top: 30px;
+}
+.footer{
+    background-color: black;
+    
+}
+.katil{
+    margin-bottom: 24px;
+}
+.katil2{
+    margin-bottom: -13px;
+}
+.serileralt{
+    background-color: rgb(22, 22, 22);
+}
+.sericikler{
+    background-color:  rgba(19, 18, 18, 0.685); 
+    border-radius: 5px;
+    height: 1000px;
+    margin-top: 50px;
+
+}
+.hakkimiz{
+    background-color:  rgba(19, 18, 18, 0.685); 
+    border-radius: 5px;
+    height: 400px;
+    margin-top: 50px;
+
+}
+.mangalar{
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 30px;
+    
+    display: flex;
+
+}
+.mangalar2{
+    height: 250px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+}
+.ism{
+    text-decoration: none;
+    color: white;
+    margin-left: 120px;
+}
+.caro{
+    text-decoration: none;
+    color: white;
+    
+}
+.page-link{
+    background-color: grey;
+    opacity: 80%;
+    color: black;
+    border-color: black;
+}
+.sunucumuz{
+    background-color: white;
+    height: 200px;
+}
